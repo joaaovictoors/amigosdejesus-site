@@ -6,6 +6,10 @@ import { BenefitsSection } from "@/components/benefits-section"
 import { OfferSection } from "@/components/offer-section"
 import { FAQSection } from "@/components/faq-section"
 
+export const metadata = {
+  title: 'Atividades Bíblicas para Educação Infantil',
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen">
